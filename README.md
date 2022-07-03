@@ -39,11 +39,14 @@ or detector using imagenet pretrained weights to process video instead of images
 want to show the prediction probability of circles(green in color if it’s above 80 otherwise red) any where in the video.
 
 
-###Design
-###First step:Create a model
+### Design
+
+### First step:Create a model
+
 let choose keras deep learning framework for implementing the model. First we do preproceing on keras dataset and then split keras dataset into train and test data.
 Using train dataset we train keras rcnn model and test the keras rcnn model. 
-###Second step:Find Prediction probability.
+### Second step:Find Prediction probability.
+
 Take a video as input.
 Opening videos using opencv function cv2.VideoCapture. Then extract frame by frame from the loaded video.
 Load implemented keras rcnn model.Iterate through frame and predict probabily of circles in the extracted frame using loaded keras rcnn model.
