@@ -2,13 +2,10 @@
 ## Task 1: Check points contains a circular region in image.
 ### libraries used
 
- Numpy
-
- cv2-opencv python
-
- sys-To communicate with interpreter.For eg: taking argument list as input using sys module
- 
- matplotlib.patches-to draw a circle and check coordinates are inside or outside the circle.
+ * Numpy
+ * cv2-opencv python
+ * sys-To communicate with interpreter.For eg: taking argument list as input using sys module.
+ * matplotlib.patches-to draw a circle and check coordinates are inside or outside the circle.
 
 ### Problem statement
 
@@ -27,14 +24,10 @@ After that using matplotlib.patches I found the coordinates are inside Or outsid
 
 ## Task 2: Predict probability of circles in a video 
 ### libraries used
- Numpy
-
- cv2-opencv python
-
- sys-To communicate with interpreter.For eg: taking argument list as input using sys module
+ * Numpy
+ * cv2-opencv python
+ * keras rcnn
  
- matplotlib.patches-to draw a circle and check coordinates are inside or outside the circle.
-
 ### Problem statement
 Using any Deep-learning framework(Tensorflow, PyTorch, Keras etc), a classifier
 or detector using imagenet pretrained weights to process video instead of images has to be created. Also
