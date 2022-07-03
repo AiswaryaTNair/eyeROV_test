@@ -1,6 +1,7 @@
 # eyeROV_test
 ## Task 1: Check points contains a circular region in image.
 ### libraries used
+
  Numpy
 
  cv2-opencv python
@@ -10,10 +11,11 @@
  matplotlib.patches-to draw a circle and check coordinates are inside or outside the circle.
 
 ### Problem statement
+
 Given an image find whether the image has a circular region and if so evaluate the given
 pixel is inside that circular region.
 
-###Solution
+### Solution
 There are 3 arguments and they are python file name, path of image and coordinate to search.
 check if length of argument is not equal to 3 the print input format is not correct.Please enter image file name and coordinate and exit.
 first consider argument 1,The function imread loads an image as 3 channel BGR color image of the given file.
