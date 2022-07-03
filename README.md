@@ -41,11 +41,11 @@ want to show the prediction probability of circles(green in color if it’s abov
 
 ### Design
 
-### First step:Create a model
+#### First step:Create a model
 
 let choose keras deep learning framework for implementing the model. First we do preproceing on keras dataset and then split keras dataset into train and test data.
 Using train dataset we train keras rcnn model and test the keras rcnn model. 
-### Second step:Find Prediction probability.
+#### Second step:Find Prediction probability.
 
 Take a video as input.
 Opening videos using opencv function cv2.VideoCapture. Then extract frame by frame from the loaded video.
