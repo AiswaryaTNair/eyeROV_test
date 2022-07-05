@@ -20,7 +20,7 @@ There are 3 arguments and they are python file name, path of image and coordinat
 check if length of argument is not equal to 3 the print input format is not correct.Please enter image file name and coordinate and exit.
 first consider argument 1,The function imread loads an image as 3 channel BGR color image of the given file.
 As grayscale images simplifying the algorithms and computational requirements, we convert the colored images to gtayscale images.
-Using cv2.cv.HOUGH_GRADIENT algorithm of cv2.HoughCircles function in opencv for circle detection.
+Using cv2.HOUGH_GRADIENT algorithm of cv2.HoughCircles function in opencv for circle detection.
 After that using matplotlib.patches I found the coordinates are inside Or outside the circle.
 
 
